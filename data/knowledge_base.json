@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "category": "data types",
+    "questions": [
+      "What is a list in Python?",
+      "Explain Python lists",
+      "How do lists work in Python?"
+    ],
+    "answer": "A list is an ordered, mutable collection of items written in square brackets, e.g. [1, 2, 3]. It can hold mixed types, and you can add, remove, or change items after creation."
+  },
+  {
+    "id": 2,
+    "category": "data types",
+    "questions": [
+      "What is a tuple in Python?",
+      "Explain tuples",
+      "What is the difference between a list and a tuple?"
+    ],
+    "answer": "A tuple is an ordered, immutable collection written in parentheses, e.g. (1, 2, 3). Unlike lists, it cannot be changed after creation, which makes it safer for fixed data and slightly faster."
+  },
+  {
+    "id": 3,
+    "category": "data types",
+    "questions": [
+      "What is a dictionary in Python?",
+      "Explain Python dict",
+      "How do key-value pairs work in Python?"
+    ],
+    "answer": "A dictionary stores key-value pairs inside curly braces, e.g. {'name': 'Ali', 'age': 20}. Keys must be unique and immutable, and values are looked up by key, e.g. d['name']."
+  }
+]

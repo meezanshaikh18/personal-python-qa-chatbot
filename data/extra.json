@@ -1,0 +1,82 @@
+[
+  {
+    "category": "strings",
+    "questions": ["What is a string in Python?", "How do I create a string?", "How to write text in quotes?"],
+    "answer": "A string is a sequence of characters inside single or double quotes, e.g. 'hello' or \"hello\". Strings are immutable, and you can index them (s[0]), slice them (s[1:3]) and call methods like .upper() on them."
+  },
+  {
+    "category": "strings",
+    "questions": ["What is string slicing?", "How do I slice a string?", "How to get part of a string?"],
+    "answer": "Slicing takes part of a sequence with [start:stop], e.g. 'python'[0:3] gives 'pyt'. The stop index is not included. Leave a side empty for the start or end, and use [::-1] to reverse."
+  },
+  {
+    "category": "strings",
+    "questions": ["How do I split a string?", "What does split do?", "How to join strings together?"],
+    "answer": "split() breaks a string into a list, e.g. 'a,b,c'.split(',') gives ['a', 'b', 'c']. join() does the opposite: ','.join(['a', 'b', 'c']) gives 'a,b,c'."
+  },
+  {
+    "category": "strings",
+    "questions": ["How do I reverse a string?", "How to reverse a list?", "How to flip the order of items?"],
+    "answer": "For a string or list, use slicing: s[::-1] returns a reversed copy. A list also has .reverse(), which reverses it in place, and the reversed() function returns an iterator."
+  },
+  {
+    "category": "data types",
+    "questions": ["How do I sort a list?", "What does sort do?", "How to order items in a list?"],
+    "answer": "list.sort() sorts the list in place, and sorted(list) returns a new sorted list. Add reverse=True for descending order, or key=len to sort by a rule, e.g. sorted(words, key=len)."
+  },
+  {
+    "category": "data types",
+    "questions": ["How do I get the length of a list or string?", "What does len do?", "How to count items in a list?"],
+    "answer": "len(x) returns the number of items in a list, tuple, dictionary or set, or the number of characters in a string, e.g. len([1, 2, 3]) gives 3."
+  },
+  {
+    "category": "data types",
+    "questions": ["How do I check if a key is in a dictionary?", "How to access a dictionary value?", "How do I loop through a dictionary?"],
+    "answer": "Use 'key' in d to test for a key, d['key'] to read a value (an error if missing) or d.get('key') (None if missing). Loop with for k, v in d.items()."
+  },
+  {
+    "category": "data types",
+    "questions": ["How do I convert a string to an integer?", "How to change a data type?", "What does int do?"],
+    "answer": "Use int('5') to get 5, float('2.5') for a decimal, and str(5) to get the text '5'. If the text isn't a valid number, int() raises a ValueError."
+  },
+  {
+    "category": "data types",
+    "questions": ["What is a boolean?", "What are True and False?", "What is a bool type?"],
+    "answer": "A boolean is a value that is either True or False. Comparisons like 5 > 3 produce booleans, and if statements and while loops use them to decide what to do."
+  },
+  {
+    "category": "data types",
+    "questions": ["What is None?", "What does None mean?", "What is a null value?"],
+    "answer": "None is Python's special value for 'nothing here'. A function without a return statement returns None. Test for it with x is None."
+  },
+  {
+    "category": "control flow",
+    "questions": ["What is the difference between for and while loops?", "When should I use for or while?", "for loop vs while loop"],
+    "answer": "Use a for loop when you know what to loop over (a list, a range). Use a while loop when you repeat until a condition changes and don't know how many times in advance."
+  },
+  {
+    "category": "functions",
+    "questions": ["What does return do?", "What is the return statement?", "How does a function send back a value?"],
+    "answer": "return ends a function and sends a value back to the caller, e.g. def add(a, b): return a + b. Without return, the function gives back None."
+  },
+  {
+    "category": "functions",
+    "questions": ["What is recursion?", "How does a recursive function work?", "What is a function calling itself?"],
+    "answer": "Recursion is when a function calls itself to solve a smaller version of the problem. It needs a base case that stops the calls, e.g. factorial(n) returns 1 when n is 0 or 1."
+  },
+  {
+    "category": "oop",
+    "questions": ["What is self in a class?", "What does self mean?", "Why does a method need self?"],
+    "answer": "self is the first parameter of a method and refers to the object the method is called on. It lets the method read and set the object's own data, e.g. self.name = name."
+  },
+  {
+    "category": "oop",
+    "questions": ["What is OOP?", "What is object oriented programming?", "What are the OOP concepts?"],
+    "answer": "Object-oriented programming organizes code into classes and objects. The main ideas are encapsulation (bundling data and methods), inheritance (reusing a parent class), polymorphism (the same method name behaving differently) and abstraction."
+  },
+  {
+    "category": "general",
+    "questions": ["good morning", "good afternoon", "good evening"],
+    "answer": "Hello! Ask me a Python question whenever you're ready."
+  }
+]

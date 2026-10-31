@@ -1,0 +1,20 @@
+[
+  {
+    "category": "strings",
+    "questions": [
+      "How do I change a string to uppercase?",
+      "What does upper do?",
+      "How to convert text to lowercase?"
+    ],
+    "answer": "Use .upper() to make a string uppercase and .lower() to make it lowercase, e.g. 'hello'.upper() gives 'HELLO'. Strings are immutable, so these methods return a new string."
+  },
+  {
+    "category": "strings",
+    "questions": [
+      "What is an f-string?",
+      "How do I put a variable inside a string?",
+      "How to format a string in Python?"
+    ],
+    "answer": "An f-string lets you embed values directly in text. Put f before the quotes and wrap variables in braces, e.g. name = 'Ali'; print(f'Hello {name}')."
+  }
+]

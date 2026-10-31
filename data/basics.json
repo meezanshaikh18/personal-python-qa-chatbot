@@ -1,0 +1,101 @@
+[
+  {
+    "category": "basics",
+    "questions": [
+      "What is a variable in Python?",
+      "How do I create a variable?",
+      "How to store a value in a variable?"
+    ],
+    "answer": "A variable is a name that refers to a value. You create one by assigning with =, e.g. age = 20. Python works out the type automatically, and you can reassign the name later."
+  },
+  {
+    "category": "basics",
+    "questions": [
+      "How do I print something in Python?",
+      "What does the print function do?",
+      "How to display output?"
+    ],
+    "answer": "Use print() to show output, e.g. print('Hello'). You can print several values at once: print('Age:', 20)."
+  },
+  {
+    "category": "basics",
+    "questions": [
+      "How do I take user input?",
+      "What does the input function do?",
+      "How to read input from the keyboard?"
+    ],
+    "answer": "input() reads a line of text typed by the user and returns it as a string, e.g. name = input('Name: '). Wrap it in int() or float() if you need a number."
+  },
+  {
+    "category": "basics",
+    "questions": [
+      "How do I write a comment?",
+      "What is a comment in Python?",
+      "How to add comments to code?"
+    ],
+    "answer": "A comment starts with # and runs to the end of the line; Python ignores it, e.g. # this is a comment. Use comments to explain why your code does something."
+  },
+  {
+    "category": "control flow",
+    "questions": [
+      "How does an if statement work?",
+      "What is if elif else?",
+      "How to write conditions?"
+    ],
+    "answer": "An if block runs only when its condition is true. Add elif for more conditions and else as the fallback, e.g. if x > 0: ... elif x == 0: ... else: ... . Blocks are defined by indentation."
+  },
+  {
+    "category": "control flow",
+    "questions": [
+      "How do I write a for loop?",
+      "What is a for loop?",
+      "How to loop through a list?"
+    ],
+    "answer": "A for loop goes through the items of a sequence one by one, e.g. for item in [1, 2, 3]: print(item). It works on lists, tuples, strings, dictionaries and range()."
+  },
+  {
+    "category": "control flow",
+    "questions": [
+      "What is a while loop?",
+      "How does a while loop work?",
+      "How to repeat code until a condition is false?"
+    ],
+    "answer": "A while loop repeats its block as long as its condition is true, e.g. while count < 5: count += 1. Make sure something inside the loop changes the condition, or it never ends."
+  },
+  {
+    "category": "control flow",
+    "questions": [
+      "What is break and continue?",
+      "How do I stop a loop early?",
+      "How to skip an iteration in a loop?"
+    ],
+    "answer": "break exits the loop immediately. continue skips the rest of the current iteration and moves on to the next one. Both work in for and while loops."
+  },
+  {
+    "category": "control flow",
+    "questions": [
+      "What does range do?",
+      "How does the range function work?",
+      "How to loop a specific number of times?"
+    ],
+    "answer": "range(n) produces the numbers 0 to n-1, e.g. range(5) gives 0, 1, 2, 3, 4. You can also set a start and step: range(2, 10, 2) gives 2, 4, 6, 8. A common pattern is: for i in range(5)."
+  },
+  {
+    "category": "functions",
+    "questions": [
+      "How do I define a function?",
+      "What is a function in Python?",
+      "How to create a function with parameters?"
+    ],
+    "answer": "A function is a reusable block of code defined with def, e.g. def greet(name): return 'Hi ' + name. Call it with greet('Ali'). The return statement sends a value back to the caller."
+  },
+  {
+    "category": "errors",
+    "questions": [
+      "What is try except?",
+      "How do I handle errors?",
+      "How to catch an exception?"
+    ],
+    "answer": "try/except lets you handle errors without crashing, e.g. try: x = int('abc') except ValueError: print('Invalid number'). The try block runs first, and if an error occurs the matching except block runs."
+  }
+]

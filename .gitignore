@@ -1,0 +1,23 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Type-checker / tooling caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,48 @@
+[
+  {
+    "category": "general",
+    "questions": [
+      "hello",
+      "hi",
+      "hey there"
+    ],
+    "answer": "Hello! I'm a Python Q&A bot. Ask me about lists, tuples, dictionaries, loops, functions, strings or error handling."
+  },
+  {
+    "category": "general",
+    "questions": [
+      "thanks",
+      "thank you",
+      "thanks a lot"
+    ],
+    "answer": "You're welcome! Ask me another Python question any time."
+  },
+  {
+    "category": "general",
+    "questions": [
+      "What can you do?",
+      "Who are you?",
+      "What can I ask you?"
+    ],
+    "answer": "I'm a simple Python Q&A chatbot. I answer from a built-in knowledge base covering basics, data types, loops, functions, errors and strings."
+  },
+  {
+    "category": "basics",
+    "questions": [
+      "What is Python?",
+      "What is the Python language?",
+      "Why is Python popular?"
+    ],
+    "answer": "Python is a popular, beginner-friendly programming language known for its readable syntax. It is used for web development, automation, data science, machine learning and more."
+  },
+  {
+    "category": "general",
+    "questions": [
+      "bye",
+      "goodbye",
+      "see you later",
+      "talk to you later"
+    ],
+    "answer": "Goodbye! Thanks for chatting. Come back whenever you have another Python question."
+  }
+]

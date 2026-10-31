@@ -1,0 +1,101 @@
+[
+  {
+    "category": "data types",
+    "questions": [
+      "What is a set in Python?",
+      "How do sets work?",
+      "How to remove duplicates from a list?"
+    ],
+    "answer": "A set is an unordered collection of unique items written in braces, e.g. {1, 2, 3}. Duplicates are removed automatically, so set([1, 1, 2]) gives {1, 2}. Sets support fast membership checks and operations like union and intersection."
+  },
+  {
+    "category": "data types",
+    "questions": [
+      "How do I add an item to a list?",
+      "What does append do?",
+      "How to remove an item from a list?"
+    ],
+    "answer": "Use list.append(x) to add an item at the end, list.insert(i, x) to add at a position, list.remove(x) to delete by value and list.pop(i) to delete by index. For example, nums.append(4) turns [1, 2, 3] into [1, 2, 3, 4]."
+  },
+  {
+    "category": "data types",
+    "questions": [
+      "How do I check the type of a variable?",
+      "What does the type function do?",
+      "How to find out the data type?"
+    ],
+    "answer": "Use type(x) to see an object's type, e.g. type(5) gives int. Use isinstance(x, int) to test it, which returns True or False."
+  },
+  {
+    "category": "functions",
+    "questions": [
+      "What is a list comprehension?",
+      "How do I create a list in one line?",
+      "How to build a list with a loop in one line?"
+    ],
+    "answer": "A list comprehension builds a list in one line, e.g. squares = [x * x for x in range(5)] gives [0, 1, 4, 9, 16]. You can add a condition: [x for x in nums if x > 0]."
+  },
+  {
+    "category": "functions",
+    "questions": [
+      "What is a lambda function?",
+      "How do I write an anonymous function?",
+      "What is a lambda?"
+    ],
+    "answer": "A lambda is a small one-line function without a name, e.g. square = lambda x: x * x. It is handy for short throwaway functions, such as sorted(words, key=lambda w: len(w))."
+  },
+  {
+    "category": "oop",
+    "questions": [
+      "What is a class in Python?",
+      "How do I create a class?",
+      "What is an object?"
+    ],
+    "answer": "A class is a blueprint for creating objects, defined with class, e.g. class Dog: def __init__(self, name): self.name = name. Calling Dog('Rex') creates an object, and __init__ sets up its data. self refers to the object itself."
+  },
+  {
+    "category": "oop",
+    "questions": [
+      "What is inheritance?",
+      "How does a class inherit from another class?",
+      "What is a child class?"
+    ],
+    "answer": "Inheritance lets a class reuse another class's code. Write the parent in parentheses, e.g. class Puppy(Dog), and Puppy gets all of Dog's methods. A child class can override a method or call super() to use the parent's version."
+  },
+  {
+    "category": "files",
+    "questions": [
+      "How do I read a file?",
+      "How to open a text file?",
+      "What does with open do?"
+    ],
+    "answer": "Use with open('notes.txt') as f: text = f.read(). The with block closes the file automatically, even if an error occurs. Use mode 'w' to write and 'a' to append, e.g. open('out.txt', 'w')."
+  },
+  {
+    "category": "modules",
+    "questions": [
+      "How do I import a module?",
+      "What is a module in Python?",
+      "What does import do?"
+    ],
+    "answer": "A module is a Python file with reusable code. Bring it in with import, e.g. import math then math.sqrt(16), or pick one item with from math import sqrt. Python also ships with many built-in modules like random and datetime."
+  },
+  {
+    "category": "modules",
+    "questions": [
+      "What is pip?",
+      "How do I install a package?",
+      "How to install a library in Python?"
+    ],
+    "answer": "pip is Python's package installer. Run pip install package_name in the terminal, e.g. pip install pandas. Use pip list to see installed packages and pip uninstall to remove one."
+  },
+  {
+    "category": "modules",
+    "questions": [
+      "What is a virtual environment?",
+      "Why use a virtual environment?",
+      "How do I create a venv?"
+    ],
+    "answer": "A virtual environment is an isolated space with its own installed packages, so projects don't clash. Create one with python -m venv venv, then activate it with the script inside the venv folder (Scripts on Windows, bin on Mac and Linux)."
+  }
+]
